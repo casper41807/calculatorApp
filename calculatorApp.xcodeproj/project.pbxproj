@@ -7,23 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2213B9D328056D9A002E3EEE /* Double+Entensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2213B9D228056D9A002E3EEE /* Double+Entensions.swift */; };
 		22EC4BD32802BF02000AFA99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EC4BD22802BF02000AFA99 /* AppDelegate.swift */; };
 		22EC4BD52802BF02000AFA99 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EC4BD42802BF02000AFA99 /* SceneDelegate.swift */; };
-		22EC4BD72802BF02000AFA99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EC4BD62802BF02000AFA99 /* ViewController.swift */; };
 		22EC4BDA2802BF02000AFA99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22EC4BD82802BF02000AFA99 /* Main.storyboard */; };
 		22EC4BDC2802BF03000AFA99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22EC4BDB2802BF03000AFA99 /* Assets.xcassets */; };
 		22EC4BDF2802BF03000AFA99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22EC4BDD2802BF03000AFA99 /* LaunchScreen.storyboard */; };
+		22EC4BE72802C254000AFA99 /* calculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EC4BE62802C254000AFA99 /* calculatorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2213B9D228056D9A002E3EEE /* Double+Entensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Entensions.swift"; sourceTree = "<group>"; };
 		22EC4BCF2802BF02000AFA99 /* calculatorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calculatorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22EC4BD22802BF02000AFA99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22EC4BD42802BF02000AFA99 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		22EC4BD62802BF02000AFA99 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		22EC4BD92802BF02000AFA99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		22EC4BDB2802BF03000AFA99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22EC4BDE2802BF03000AFA99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22EC4BE02802BF03000AFA99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22EC4BE62802C254000AFA99 /* calculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calculatorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,8 @@
 		22EC4BC62802BF02000AFA99 = {
 			isa = PBXGroup;
 			children = (
+				2213B9D228056D9A002E3EEE /* Double+Entensions.swift */,
+				22EC4BE62802C254000AFA99 /* calculatorViewController.swift */,
 				22EC4BD12802BF02000AFA99 /* calculatorApp */,
 				22EC4BD02802BF02000AFA99 /* Products */,
 			);
@@ -58,7 +62,6 @@
 			children = (
 				22EC4BD22802BF02000AFA99 /* AppDelegate.swift */,
 				22EC4BD42802BF02000AFA99 /* SceneDelegate.swift */,
-				22EC4BD62802BF02000AFA99 /* ViewController.swift */,
 				22EC4BD82802BF02000AFA99 /* Main.storyboard */,
 				22EC4BDB2802BF03000AFA99 /* Assets.xcassets */,
 				22EC4BDD2802BF03000AFA99 /* LaunchScreen.storyboard */,
@@ -138,8 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22EC4BD72802BF02000AFA99 /* ViewController.swift in Sources */,
+				22EC4BE72802C254000AFA99 /* calculatorViewController.swift in Sources */,
 				22EC4BD32802BF02000AFA99 /* AppDelegate.swift in Sources */,
+				2213B9D328056D9A002E3EEE /* Double+Entensions.swift in Sources */,
 				22EC4BD52802BF02000AFA99 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
